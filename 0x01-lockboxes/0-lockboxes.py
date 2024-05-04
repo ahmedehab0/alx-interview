@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""lockboxes problem solution"""
+"""Solves the lock boxes puzzle """
 
 
 def canUnlockAll(boxes: list[list[int]]) -> bool:
