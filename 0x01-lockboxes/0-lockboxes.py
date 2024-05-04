@@ -3,6 +3,7 @@
 
 
 def canUnlockAll(boxes: list[list[int]]) -> bool:
+    """method to solve the lockboxes problem"""
     n = len(boxes)
     # Keep track of which boxes are opened
     opened = [False] * n

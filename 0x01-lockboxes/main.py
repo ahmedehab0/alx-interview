@@ -2,7 +2,6 @@
 
 canUnlockAll = __import__('0-lockboxes').canUnlockAll
 
-print(canUnlockAll.__annotations__)
 boxes = [[1], [2], [3], [4], []]
 print(canUnlockAll(boxes))
 
