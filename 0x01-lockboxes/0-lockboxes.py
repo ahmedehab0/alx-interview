@@ -1,14 +1,9 @@
 #!/usr/bin/python3
-"""Solves the lock boxes puzzle """
+
+"""lockboxes problem solution"""
 
 
 def canUnlockAll(boxes: list[list[int]]) -> bool:
-    """Check if all boxes can be opened
-    Args:
-        boxes (list): List which contain all the boxes with the keys
-    Returns:
-        bool: True if all boxes can be opened, otherwise, False
-    """
     n = len(boxes)
     # Keep track of which boxes are opened
     opened = [False] * n
